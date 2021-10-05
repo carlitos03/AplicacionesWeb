@@ -1,0 +1,149 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>Ejrecicio 1</title>
+</head>
+<body>
+<style>
+table{
+	width: 100%;
+
+}
+
+td{
+	text-align:center;
+	background-color:#DADADA;
+	border-radius: 25px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color: #333;	
+}
+
+li{
+	float:left;
+}
+
+li a{
+	display:block ;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #111;
+	}
+@keyframes pokemon-up{
+
+	0%,
+	100% {
+	transform: translatey(0);
+	}
+
+	50%{
+	transform: translatey(-.4rem);
+	}
+	
+}
+
+td:hover{
+	background-color: #111;
+	animation:pokemon-up .3s;
+	cursor:pointer;
+	color:white;
+}
+
+.veneno{
+	background-color: #7618DF;
+}
+
+.agua{
+	background-color: #00B9FF;
+}
+
+.fuerza{
+	background-color: #85837D;
+}
+
+.normal{
+	background-color: #E5B629;
+}
+
+.pokemon-type{
+	width: 25%;
+	text-align: center;
+}
+
+</style>
+
+<ul>
+	<li><a href="">Home</a></l1>
+	<li><a href="">Pokedex 1</a></l1>
+	<li><a href="">Pokedex 2</a></l1>
+	<li><a href="">Pokedex 3</a></l1>
+</ul>
+
+<table style="width: 100%">
+	<tr>
+		
+		<td>
+		<img src="../img/machoke.png">
+		<div class="pokemon-description">
+			<h3 class="pokemon-nane">Machoke</h3>
+			<center><div class="pokemon-type fuerza">Fuerza</div></center>
+		</div>
+		</td>
+		
+		<td>		
+		<img src="../img/rattata.png">
+		<div class="pokemon-description">
+			<h3>Rattata</h3>
+			<center><div class="pokemon-type veneno">Veneno</div></center>
+		</div>
+		</td>
+		
+		<td>
+		<img src="../img/machamp.png">
+		<div class="pokemon-description">
+			<h3 class="pokemon-name">Machamp</h3>
+			<center><div class="pokemon-type fuerza">Fuerza</div></center>
+		</div>
+		</td>
+	</tr>
+			
+	<tr>
+		<td>
+		<img src="../img/eevee.png">
+		<div class="pokemon-desscription">
+			<h3 class="pokemon-name">Eevee</h3>
+			<center><div class="pokemon-type normal">Normal</div></center>
+		</div>
+		
+		</td>
+		
+		<td>
+		<img src="../img/machop.png">
+		<div class="pokemon-description">
+			<h3 class="pokemon-name">Machop</h3>
+			<center><div class="pokemon-type fuerza">Fuerza</div></center>
+		</div>
+		</td>
+		
+		<td>
+		<img src="../img/squirtle.png">
+		<div class="pokemon-description">
+			<h3 class="pokemon-name">Squirtle</h3>
+			<center><div class="pokemon-type agua">Agua</div></center>
+		</div>
+		</td>
+	</tr>
+</table>
+
+</body>	
+</html>
